@@ -2,9 +2,10 @@ package main
 
 import (
 	"flag"
-	"fmt"
+	"html/template"
 	"math/rand/v2"
 	"os"
+	"strings"
 
 	"github.com/BurntSushi/toml"
 )
@@ -136,8 +137,10 @@ func ComputeOutput(seed1 uint64, seed2 uint64, components Components) Output {
 
 func main() {
 	var seed1, seed2 uint64
+	var htmlOutput bool
 	flag.Uint64Var(&seed1, "first_seed", rand.Uint64(), "the first seed number used for shuffling")
 	flag.Uint64Var(&seed2, "second_seed", rand.Uint64(), "the second seed number used for shuffling")
+	flag.BoolVar(&htmlOutput, "html", false, "generate an html output for testing and/or local play")
 	flag.Parse()
 
 	f, err := os.Open("components.toml")
@@ -155,52 +158,50 @@ func main() {
 
 	output := ComputeOutput(seed1, seed2, components)
 
-	fmt.Printf("%#v\n", output)
-	// f, err = os.Create("output.html")
+	funcMap := template.FuncMap{
+		"add": func(a, b int) int { return a + b },
+		"fixedSizeString": func(a string, finalLength int) string {
+			length := len([]rune(a))
+			return a + strings.Repeat(".", finalLength-length)
+		},
+	}
 
-	// if err != nil {
-	// 	panic(err)
-	// }
-	// defer f.Close()
+	if htmlOutput {
+		f, err = os.Create("output.html")
 
-	// funcMap := template.FuncMap{
-	// 	"add": func(a, b int) int { return a + b },
-	// 	"fixedSizeString": func(a string, finalLength int) string {
-	// 		length := len([]rune(a))
-	// 		return a + strings.Repeat(".", finalLength-length)
-	// 	},
-	// }
+		if err != nil {
+			panic(err)
+		}
+		defer f.Close()
+		tmpl, err := template.New("html_template.html.tmpl").Funcs(funcMap).ParseFiles("html_template.html.tmpl")
+		if err != nil {
+			panic(err)
+		}
 
-	// tmpl, err := template.New("html_template.html.tmpl").Funcs(funcMap).ParseFiles("html_template.html.tmpl")
-	// if err != nil {
-	// 	panic(err)
-	// }
+		err = tmpl.Execute(f, output)
+		if err != nil {
+			panic(err)
+		}
 
-	// err = tmpl.Execute(f, output)
-	// if err != nil {
-	// 	panic(err)
-	// }
+		f.Close()
+		return
+	}
+	f, err = os.Create("output.txt")
 
-	// f.Close()
+	if err != nil {
+		panic(err)
+	}
+	defer f.Close()
 
-	// f, err = os.Create("output.txt")
+	tmpl, err := template.New("forum_template.tmpl").Funcs(funcMap).ParseFiles("forum_template.tmpl")
+	if err != nil {
+		panic(err)
+	}
 
-	// if err != nil {
-	// 	panic(err)
-	// }
-	// defer f.Close()
-
-	// tmpl, err = template.New("forum_template.tmpl").Funcs(funcMap).ParseFiles("forum_template.tmpl")
-	// if err != nil {
-	// 	panic(err)
-	// }
-
-	// err = tmpl.Execute(f, output)
-	// if err != nil {
-	// 	panic(err)
-	// }
-
-	// fmt.Fprintf(f, "%#v\n%#v,%#v\n", output.AttackCardsByRound, output.DomainCards, output.PathCardsByRound)
+	err = tmpl.Execute(f, output)
+	if err != nil {
+		panic(err)
+	}
 
 }
 

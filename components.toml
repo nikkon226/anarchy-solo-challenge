@@ -1,0 +1,590 @@
+
+path_cards = [
+    "Abbot",
+    "Advocate",
+    "Architect",
+    "Baron",
+    "Bellwether",
+    "Captain",
+    "Champion",
+    "Commander",
+    "Conqueror",
+    "Defender",
+    "Engineer",
+    "Excavator",
+    "Foreman",
+    "Mentor",
+    "Merrymaker",
+    "Monk",
+    "Partisan",
+    "Priest",
+    "Recruiter",
+    "Scout",
+    "Silversmith",
+    "Tactician",
+    "Warrior",
+    "Weaponsmith",
+]
+
+large_plunder_tiles = [
+    "silver,silver,material",
+    "silver,silver,food",
+    "material,material,food",
+    "silver,material,material",
+    "silver,material,food",
+]
+
+small_plunder_tiles = [
+    "material,material",
+    "silver,silver",
+    "silver,material",
+    "silver,food",
+    "material,food",
+]
+
+[[domain_cards]]
+id = 1
+knights_training = "bow-and-arrow"
+st_valentines_festival = 4
+michaelmas = 5
+tournament = "shield-blank-sword"
+brewhouse = "hops"
+lammas = "yellow"
+[[domain_cards]]
+id = 2
+knights_training = "scroll"
+st_valentines_festival = 2
+michaelmas = 7
+tournament = "blank-sword-shield"
+brewhouse = "water"
+lammas = "purple"
+[[domain_cards]]
+id = 3
+knights_training = "scroll"
+st_valentines_festival = 4
+michaelmas = 7
+tournament = "shield-blank-sword"
+brewhouse = "water"
+lammas = "purple"
+[[domain_cards]]
+id = 4
+knights_training = "sword-and-shield"
+st_valentines_festival = 3
+michaelmas = 6
+tournament = "shield-sword-blank"
+brewhouse = "barley"
+lammas = "green"
+[[domain_cards]]
+id = 5
+knights_training = "bow-and-arrow"
+st_valentines_festival = 6
+michaelmas = 5
+tournament = "blank-shield-sword"
+brewhouse = "hops"
+lammas = "yellow"
+[[domain_cards]]
+id = 6
+knights_training = "sword-and-shield"
+st_valentines_festival = 3
+michaelmas = 2
+tournament = "shield-sword-blank"
+brewhouse = "water"
+lammas = "red"
+
+[[domain_cards]]
+id = 7
+knights_training = "bow-and-arrow"
+st_valentines_festival = 6
+michaelmas = 1
+tournament = "blank-sword-shield"
+brewhouse = "barm"
+lammas = "green"
+[[domain_cards]]
+id = 8
+knights_training = "scroll"
+st_valentines_festival = 6
+michaelmas = 3
+tournament = "blank-shield-sword"
+brewhouse = "barley"
+lammas = "yellow"
+[[domain_cards]]
+id = 9
+knights_training = "bow-and-arrow"
+st_valentines_festival = 2
+michaelmas = 1
+tournament = "blank-sword-shield"
+brewhouse = "barm"
+lammas = "green"
+[[domain_cards]]
+id = 10
+knights_training = "horseshoe"
+st_valentines_festival = 3
+michaelmas = 4
+tournament = "sword-shield-blank"
+brewhouse = "hops"
+lammas = "purple"
+[[domain_cards]]
+id = 11
+knights_training = "sword-and-shield"
+st_valentines_festival = 5
+michaelmas = 2
+tournament = "sword-blank-shield"
+brewhouse = "water"
+lammas = "red"
+[[domain_cards]]
+id = 12
+knights_training = "bow-and-arrow"
+st_valentines_festival = 2
+michaelmas = 5
+tournament = "blank-shield-sword"
+brewhouse = "hops"
+lammas = "yellow"
+[[domain_cards]]
+id = 13
+knights_training = "scroll"
+st_valentines_festival = 4
+michaelmas = 3
+tournament = "blank-shield-sword"
+brewhouse = "barley"
+lammas = "yellow"
+[[domain_cards]]
+id = 14
+knights_training = "scroll"
+st_valentines_festival = 6
+michaelmas = 7
+tournament = "shield-blank-sword"
+brewhouse = "water"
+lammas = "purple"
+[[domain_cards]]
+id = 15
+knights_training = "scroll"
+st_valentines_festival = 2
+michaelmas = 3
+tournament = "blank-sword-shield"
+brewhouse = "barley"
+lammas = "yellow"
+[[domain_cards]]
+id = 16
+knights_training = "bow-and-arrow"
+st_valentines_festival = 4
+michaelmas = 1
+tournament = "shield-blank-sword"
+brewhouse = "barm"
+lammas = "green"
+[[domain_cards]]
+id = 17
+knights_training = "sword-and-shield"
+st_valentines_festival = 1
+michaelmas = 2
+tournament = "sword-blank-shield"
+brewhouse = "water"
+lammas = "red"
+[[domain_cards]]
+id = 18
+knights_training = "horseshoe"
+st_valentines_festival = 1
+michaelmas = 4
+tournament = "sword-blank-shield"
+brewhouse = "hops"
+lammas = "purple"
+[[domain_cards]]
+id = 19
+knights_training = "sword-and-shield"
+st_valentines_festival = 1
+michaelmas = 6
+tournament = "sword-shield-blank"
+brewhouse = "barley"
+lammas = "green"
+[[domain_cards]]
+id = 20
+knights_training = "sword-and-shield"
+st_valentines_festival = 5
+michaelmas = 6
+tournament = "sword-shield-blank"
+brewhouse = "barley"
+lammas = "green"
+[[domain_cards]]
+id = 21
+knights_training = "horseshoe"
+st_valentines_festival = 5
+michaelmas = 8
+tournament = "shield-sword-blank"
+brewhouse = "barm"
+lammas = "red"
+[[domain_cards]]
+id = 22
+knights_training = "horseshoe"
+st_valentines_festival = 1
+michaelmas = 8
+tournament = "sword-blank-shield"
+brewhouse = "barm"
+lammas = "red"
+[[domain_cards]]
+id = 23
+knights_training = "horseshoe"
+st_valentines_festival = 3
+michaelmas = 8
+tournament = "shield-sword-blank"
+brewhouse = "barm"
+lammas = "red"
+[[domain_cards]]
+id = 24
+knights_training = "horseshoe"
+st_valentines_festival = 5
+michaelmas = 4
+tournament = "sword-shield-blank"
+brewhouse = "hops"
+lammas = "purple"
+
+[scenario.classic]
+easy = [1, 2, 3, 4, 5]
+standard = [6, 7, 8, 9, 10]
+hard = [11, 12, 13, 14, 15]
+
+[scenario.siege]
+easy = [16, 17, 18, 19, 20]
+standard = [21, 22, 23, 24, 25]
+hard = [26, 27, 28, 29, 30]
+
+[[final_escalade_cards]]
+id = 1
+type = "ladder"
+north = "A"
+east = ""
+south = ""
+west = "A"
+skull = "false"
+[[final_escalade_cards]]
+id = 2
+type = "ladder"
+north = ""
+east = ""
+south = "A"
+west = "A"
+skull = "false"
+
+[[final_escalade_cards]]
+id = 3
+type = "ladder"
+north = ""
+east = "A"
+south = "A"
+west = ""
+skull = "false"
+
+[[final_escalade_cards]]
+id = 4
+type = "ladder"
+north = ""
+east = "A"
+south = ""
+west = "A"
+skull = "false"
+
+[[final_escalade_cards]]
+id = 5
+type = "ladder"
+north = "A"
+east = ""
+south = "A"
+west = ""
+skull = "false"
+
+[[final_escalade_cards]]
+id = 6
+type = "ladder"
+north = "A"
+east = "A"
+south = ""
+west = ""
+skull = "false"
+
+[[attack_cards]]
+id = 1
+type = "ladder"
+north = "A"
+east = ""
+south = ""
+west = ""
+skull = "false"
+
+[[attack_cards]]
+id = 2
+type = "ladder"
+north = ""
+east = "A"
+south = ""
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 3
+type = "ladder"
+north = ""
+east = ""
+south = "A"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 4
+type = "ladder"
+north = ""
+east = ""
+south = ""
+west = "A"
+skull = "false"
+[[attack_cards]]
+id = 5
+type = "ladder"
+north = "E"
+east = ""
+south = ""
+west = ""
+skull = "true"
+[[attack_cards]]
+id = 6
+type = "ladder"
+north = ""
+east = ""
+south = "E"
+west = ""
+skull = "true"
+[[attack_cards]]
+id = 7
+type = "catapault"
+north = ""
+east = ""
+south = "C"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 8
+type = "catapault"
+north = ""
+east = ""
+south = "C"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 9
+type = "catapault"
+north = ""
+east = ""
+south = "C"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 10
+type = "catapault"
+north = ""
+east = ""
+south = "C"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 11
+type = "catapault"
+north = ""
+east = ""
+south = "A"
+west = ""
+skull = "true"
+[[attack_cards]]
+id = 12
+type = "catapault"
+north = ""
+east = ""
+south = "A"
+west = ""
+skull = "true"
+[[attack_cards]]
+id = 13
+type = "ballista"
+north = "C"
+east = ""
+south = "B"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 14
+type = "ballista"
+north = "B"
+east = ""
+south = "C"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 15
+type = "ballista"
+north = ""
+east = "C"
+south = ""
+west = "B"
+skull = "false"
+[[attack_cards]]
+id = 16
+type = "ballista"
+north = ""
+east = "B"
+south = ""
+west = "C"
+skull = "false"
+[[attack_cards]]
+id = 17
+type = "ballista"
+north = ""
+east = "B"
+south = ""
+west = "A"
+skull = "true"
+[[attack_cards]]
+id = 18
+type = "ballista"
+north = "B"
+east = ""
+south = "A"
+west = ""
+skull = "true"
+[[attack_cards]]
+id = 19
+type = "siege_tower"
+north = "A"
+east = ""
+south = ""
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 20
+type = "siege_tower"
+north = ""
+east = "A"
+south = ""
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 21
+type = "siege_tower"
+north = ""
+east = ""
+south = "A"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 22
+type = "siege_tower"
+north = ""
+east = ""
+south = ""
+west = "A"
+skull = "false"
+[[attack_cards]]
+id = 23
+type = "siege_tower"
+north = ""
+east = "E"
+south = ""
+west = ""
+skull = "true"
+[[attack_cards]]
+id = 24
+type = "siege_tower"
+north = ""
+east = ""
+south = ""
+west = "E"
+skull = "true"
+[[attack_cards]]
+id = 25
+type = "battering_ram"
+north = ""
+east = ""
+south = "D"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 26
+type = "battering_ram"
+north = ""
+east = ""
+south = "D"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 27
+type = "battering_ram"
+north = ""
+east = ""
+south = "D"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 28
+type = "battering_ram"
+north = ""
+east = ""
+south = "D"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 29
+type = "battering_ram"
+north = ""
+east = ""
+south = "E"
+west = ""
+skull = "true"
+[[attack_cards]]
+id = 30
+type = "battering_ram"
+north = ""
+east = ""
+south = "E"
+west = ""
+skull = "true"
+[[attack_cards]]
+id = 31
+type = "arrows"
+north = "C"
+east = "B"
+south = "C"
+west = ""
+skull = "false"
+[[attack_cards]]
+id = 32
+type = "arrows"
+north = "C"
+east = ""
+south = "C"
+west = "B"
+skull = "false"
+[[attack_cards]]
+id = 33
+type = "arrows"
+north = ""
+east = "C"
+south = "B"
+west = "C"
+skull = "false"
+[[attack_cards]]
+id = 34
+type = "arrows"
+north = "B"
+east = "C"
+south = ""
+west = "C"
+skull = "false"
+[[attack_cards]]
+id = 35
+type = "arrows"
+north = "B"
+east = ""
+south = "B"
+west = "D"
+skull = "true"
+[[attack_cards]]
+id = 36
+type = "arrows"
+north = "B"
+east = "B"
+south = ""
+west = "D"
+skull = "true"

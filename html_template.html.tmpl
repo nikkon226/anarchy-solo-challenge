@@ -1,0 +1,176 @@
+<html>
+<body>
+<style>
+        body{
+            background: rgb(255, 255, 230);
+            color: #444;
+        }
+        details{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-bottom: 5px;
+            padding: 0.5em 0.5em 0;
+        }
+        details[open]{
+            padding: 0.5em;
+        }
+        summary{
+            font-weight: bold;
+            margin: -0.5em -0.5em 0;
+            padding: 0.5em;
+            cursor: pointer;
+        }
+        details[open] summary{
+            margin-bottom: 0.5em;
+        }
+        table, th, td {
+            border: 1px solid;
+        }
+        th, td {
+            padding: 10px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+<section>
+<table>
+<tr><td>First Seed</td><td>{{ .FirstSeed }}</td></tr>
+<tr><td>Second Seed</td><td>{{ .SecondSeed }}</td></tr>
+</table>
+</secton>
+<h1>Plunder Tiles</h1>
+<table>
+<thead>
+<tr><th>Round 1</th><th>Round 2</th><th>Round 3</th><th>Round 4</th><th>Round 5</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>{{ index .PlunderTilesByRound 1 }}</td>
+<td>{{ index .PlunderTilesByRound 2 }}</td>
+<td>{{ index .PlunderTilesByRound 3 }}</td>
+<td>{{ index .PlunderTilesByRound 4 }}</td>
+<td>{{ index .PlunderTilesByRound 5 }}</td>
+</tr>
+</tbody>
+</table>
+
+
+<h1>Attack Cards</h1>
+<section>
+<details>
+    <summary>Round 1</summary>
+    <h2>Final Escalade</h2>
+Type: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).Type 13 }}<br/>
+North: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).North 1 }}<br />
+East: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).East 1 }}<br />
+South: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).South 1 }}<br />
+West: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).West 1 }}
+    <h2>Attack 1</h2>
+Type: {{ fixedSizeString (index .AttackCardsByRound 0 0).Type 13 }}<br />
+North: {{ fixedSizeString (index .AttackCardsByRound 0 0).North 1 }}<br />
+East: {{ fixedSizeString (index .AttackCardsByRound 0 0).East 1 }}<br />
+South: {{ fixedSizeString (index .AttackCardsByRound 0 0).South 1 }}<br />
+West: {{ fixedSizeString (index .AttackCardsByRound 0 0).West 1 }}<br />
+Skull: {{ fixedSizeString (index .AttackCardsByRound 0 0).Skull 5 }}
+</details>
+<details>
+    <summary>Round 2</summary>
+    <h2>Final Escalade</h2>
+    Type: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).Type 13 }}<br />
+    North: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).North 1 }}<br />
+    East: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).East 1 }}<br />
+    South: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).South 1 }}<br />
+    West: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).West 1 }}
+    {{- range $index, $card := (index .AttackCardsByRound 1) }}
+    <h2>Attack {{ add $index 1 }}</h2>
+    Type: {{ fixedSizeString $card.Type 13 }}<br />
+    North: {{ fixedSizeString $card.North 1 }}<br />
+    East: {{ fixedSizeString $card.East 1 }}<br />
+    South: {{ fixedSizeString $card.South 1 }}<br />
+    West: {{ fixedSizeString $card.West 1 }}<br />
+    Skull: {{ fixedSizeString $card.Skull 5 }}{{- end}}
+</details><details>
+    <summary>Round 3</summary>
+    <h2>Final Escalade</h2>
+    Type: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).Type 13 }}<br />
+    North: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).North 1 }}<br />
+    East: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).East 1 }}<br />
+    South: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).South 1 }}<br />
+    West: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).West 1 }}
+    {{- range $index, $card := (index .AttackCardsByRound 2) }}
+    <h2>Attack {{ add $index 1 }}</h2>
+    Type: {{ fixedSizeString $card.Type 13 }}<br />
+    North: {{ fixedSizeString $card.North 1 }}<br />
+    East: {{ fixedSizeString $card.East 1 }}<br />
+    South: {{ fixedSizeString $card.South 1 }}<br />
+    West: {{ fixedSizeString $card.West 1 }}<br />
+    Skull: {{ fixedSizeString $card.Skull 5 }}{{- end}}
+</details>
+<details>
+    <summary>Round 4</summary>
+    <h2>Final Escalade</h2>
+    Type: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).Type 13 }}<br />
+    North: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).North 1 }}<br />
+    East: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).East 1 }}<br />
+    South: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).South 1 }}<br />
+    West: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).West 1 }}
+    {{- range $index, $card := (index .AttackCardsByRound 3) }}
+    <h2>Attack {{ add $index 1 }}</h2>
+    Type: {{ fixedSizeString $card.Type 13 }}<br />
+    North: {{ fixedSizeString $card.North 1 }}<br />
+    East: {{ fixedSizeString $card.East 1 }}<br />
+    South: {{ fixedSizeString $card.South 1 }}<br />
+    West: {{ fixedSizeString $card.West 1 }}<br />
+    Skull: {{ fixedSizeString $card.Skull 5 }}{{- end}}
+</details>
+<details>
+    <summary>Round 5</summary>
+    <h2>Final Escalade</h2>
+    Type: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).Type 13 }}<br />
+    North: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).North 1 }}<br />
+    East: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).East 1 }}<br />
+    South: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).South 1 }}<br />
+    West: {{ fixedSizeString (index .FinalEscaladeCardByRound 0).West 1 }}
+    {{- range $index, $card := (index .AttackCardsByRound 4) }}
+    <h2>Attack {{ add $index 1 }}</h2>
+    Type: {{ fixedSizeString $card.Type 13 }}<br />
+    North: {{ fixedSizeString $card.North 1 }}<br />
+    East: {{ fixedSizeString $card.East 1 }}<br />
+    South: {{ fixedSizeString $card.South 1 }}<br />
+    West: {{ fixedSizeString $card.West 1 }}<br />
+    Skull: {{ fixedSizeString $card.Skull 5 }}
+    {{- end}}
+</details>
+</section>
+
+<h1>Path Cards by Round</h1>
+<section>
+{{ range $round, $cards := .PathCardsByRound}}
+<details>
+<summary>Round {{ $round }}</summary>
+<details><summary>Card 1</summary>{{ index $cards 0 }}</details>
+<details><summary>Card 2</summary>{{ index $cards 1 }}</details>
+</details>
+{{- end }}
+</section>
+
+<h1>Domain Cards</h1>
+<section>
+{{ range $index, $card := .DomainCards}}
+<details>
+<summary>Card {{ add $index 1 }}
+</summary>
+<table>
+<tbody>
+<tr><td>Knights Training</td><td>{{ $card.KnightsTraining }}</td></tr>
+<tr><td>St.Valentine's Festival</td><td>{{ $card.StValentinesFestival }}</td></tr>
+<tr><td>Michaelmas</td><td>{{ $card.Michaelmas }}</td></tr>
+<tr><td>Tournament</td><td>{{ $card.Tournament }}</td></tr>
+<tr><td>Brewhouse</td><td>{{ $card.Brewhouse }}</td></tr>
+<tr><td>Lammas</td><td>{{ $card.Lammas }}</td></tr>
+</tbody>
+</table>
+</details>
+{{- end }}
+</body>
+</html>

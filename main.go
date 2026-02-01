@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"html/template"
 	"math/rand/v2"
 	"os"
@@ -40,11 +41,78 @@ const (
 type DomainCard struct {
 	ID                   int    `toml:"id"`
 	KnightsTraining      string `toml:"knights_training"`
-	StValentinesFestival int    `toml:"st_valentines_festival"`
-	Michaelmas           int    `toml:"michaelmas"`
+	StValentinesFestival string `toml:"st_valentines_festival"`
+	Michaelmas           string `toml:"michaelmas"`
 	Tournament           string `toml:"tournament"`
 	Brewhouse            string `toml:"brewhouse"`
 	Lammas               string `toml:"lammas"`
+}
+
+func (dc *DomainCard) UnmarshalTOML(data any) error {
+	card, _ := data.(map[string]any)
+
+	dc.ID = int(card["id"].(int64))
+	knightsTraining := card["knights_training"].(string)
+	switch knightsTraining {
+	case KNIGHTS_TRAINING_BOW:
+		dc.KnightsTraining = "🏹"
+	case KNIGHTS_TRAINING_SCROLL:
+		dc.KnightsTraining = "📜"
+	case KNIGHTS_TRAINING_SHIELD:
+		dc.KnightsTraining = "🛡️"
+	case KNIGHTS_TRAINING_HORSESHOE:
+		dc.KnightsTraining = "🐴"
+	default:
+		return fmt.Errorf("could not unmarshal DomainCard (ID: %v)- knights_training (%v)", dc.ID, knightsTraining)
+	}
+
+	dc.StValentinesFestival = fmt.Sprintf("♂️ %v ♀️", card["st_valentines_festival"].(int64))
+	dc.Michaelmas = fmt.Sprintf("📖 %v", card["michaelmas"].(int64))
+
+	tournament := card["tournament"].(string)
+	switch tournament {
+	case TOURNAMENT_SWORD_SHIELD_BLANK:
+		dc.Tournament = fmt.Sprintf("%s | %s | %s", "⚔️", "🛡️", " ")
+	case TOURNAMENT_SWORD_BLANK_SHIELD:
+		dc.Tournament = fmt.Sprintf("%s | %s | %s", "⚔️", " ", "🛡️")
+	case TOURNAMENT_SHIELD_BLANK_SWORD:
+		dc.Tournament = fmt.Sprintf("%s | %s | %s", "🛡️", " ", "⚔️")
+	case TOURNAMENT_SHIELD_SWORD_BLANK:
+		dc.Tournament = fmt.Sprintf("%s | %s | %s", "🛡️", "⚔️", " ")
+	case TOURNAMENT_BLANK_SHIELD_SWORD:
+		dc.Tournament = fmt.Sprintf("%s | %s | %s", " ", "🛡️", "⚔️")
+	case TOURNAMENT_BLANK_SWORD_SHIELD:
+		dc.Tournament = fmt.Sprintf("%s | %s | %s", " ", "⚔️", "🛡️")
+	default:
+		return fmt.Errorf("could not unmarshal DomainCard (ID: %v)- tournament (%v)", dc.ID, tournament)
+	}
+
+	dc.Brewhouse = card["brewhouse"].(string)
+	// switch brewhouse {
+	// case BREWHOUSE_HOPS:
+	// 	dc.Brewhouse = ""
+	// case BREWHOUSE_WATER:
+	// 	dc.Brewhouse = ""
+	// case BREWHOUSE_BARLEY:
+	// 	dc.Brewhouse = ""
+	// case BREWHOUSE_BARM:
+	// 	dc.Brewhouse = "☁️"
+	// }
+
+	dc.Lammas = card["lammas"].(string)
+	lammas := card["lammas"].(string)
+	switch lammas {
+	case LAMMAS_GREEN:
+		dc.Lammas = "🟩 green"
+	case LAMMAS_PURPLE:
+		dc.Lammas = "🟪 purple"
+	case LAMMAS_RED:
+		dc.Lammas = "🟥 red"
+	case LAMMAS_YELLOW:
+		dc.Lammas = "🟨 yellow"
+	}
+
+	return nil
 }
 
 type AttackCard struct {

@@ -1,5 +1,5 @@
 [b]Challenge Start[/b]: Now
-[b]Challenge End[/b]: 01/31/2026
+[b]Challenge End[/b]:
 
 [size=18][b]Description:[/b][/size]
 Welcome to The Anarchy Solo Challenge. Every month, we'll play a randomly generated setup with fully scripted rounds of attack cards and a domain deck.
@@ -7,7 +7,7 @@ The deck of 24 domain cards are shuffled, drawn until completed, per the rule bo
 
 Let's see who can get the highest score!
 
-I recently got the game for the holidays and I really enjoy playing it. My 11yo son also really enjoys it (the first game we both are very much into) and so I wanted to have a way to play more. I wrote a program (I will post the link to the source soon) to generate everything below the challenge header so anyone else could post if they wanted to.
+The source code for the challenge is located at [url=https://github.com/nikkon226/anarchy-solo-challenge]https://github.com/nikkon226/anarchy-solo-challenge[/url]. If there are any issues or errors, please let me know!
 
 [size=18][b]Rules:[/b][/size]
 - All regular solo rules apply
@@ -32,6 +32,9 @@ Please post a photo of your boards if you can/want to.
 
 [size=24]Challenge:[/size]
 
+[size=18]Mode[/size]
+[b].....[/b]
+
 [size=18]Plunder Tiles[/size]
 [b]Round 1:[/b] {{ index .PlunderTilesByRound 1 }}
 [b]Round 2:[/b] {{ index .PlunderTilesByRound 2 }}
@@ -40,7 +43,7 @@ Please post a photo of your boards if you can/want to.
 [b]Round 5:[/b] {{ index .PlunderTilesByRound 5 }}
 
 [size=18]Path Cards[/size]
-Use only Card 1 for the round if your tent is behind the solo opponent.
+Use only Card 1 for the round if your tent is behind the solo opponent (only in classic mode).
 {{ range $round, $cards := .PathCardsByRound}}
 Round {{ $round }}:
 Card 1: [o][c]{{ fixedSizeString (index $cards 0) 15 }}[/c][/o]
@@ -171,12 +174,12 @@ Skull: [c]{{ fixedSizeString $card.Skull 5 }}[/c]
 {{- range $index, $card := .DomainCards}}
 Card {{ add $index 1 }}:
 [o]
-Knight's Training: [c]{{ fixedSizeString $card.KnightsTraining 16 }}[/c]
-St.Valentine's Festival: ♂️ {{ $card.StValentinesFestival }} ♀️
-Michaelmas: 📖 {{ $card.Michaelmas }}
+Knight's Training: [c]{{ $card.KnightsTraining }}[/c]
+St.Valentine's Festival: {{ $card.StValentinesFestival }}
+Michaelmas: {{ $card.Michaelmas }}
 Tournament: [c]{{ $card.Tournament }}[/c]
 Brewhouse: [c]{{ fixedSizeString $card.Brewhouse 6 }}[/c]
-Lammas: [color={{ $card.Lammas }}][c]{{ fixedSizeString $card.Lammas 6 }}[/c][/color]
+Lammas: [c]{{ fixedSizeString $card.Lammas 8 }}[/c]
 [/o]
 {{- end }}
 

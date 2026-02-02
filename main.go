@@ -66,7 +66,7 @@ func (dc *DomainCard) UnmarshalTOML(data any) error {
 		return fmt.Errorf("could not unmarshal DomainCard (ID: %v)- knights_training (%v)", dc.ID, knightsTraining)
 	}
 
-	dc.StValentinesFestival = fmt.Sprintf("♂️ %v ♀️", card["st_valentines_festival"].(int64))
+	dc.StValentinesFestival = fmt.Sprintf("♀️ %v ♂️", card["st_valentines_festival"].(int64))
 	dc.Michaelmas = fmt.Sprintf("📖 %v", card["michaelmas"].(int64))
 
 	tournament := card["tournament"].(string)
@@ -142,6 +142,7 @@ type Output struct {
 	PlunderTilesByRound      map[int]string
 	FirstSeed                uint64
 	SecondSeed               uint64
+	SiegeMode                bool
 }
 
 func (o *Output) AssignPathCardsByRound(rng *rand.Rand, pathCards []string) {
@@ -205,10 +206,11 @@ func ComputeOutput(seed1 uint64, seed2 uint64, components Components) Output {
 
 func main() {
 	var seed1, seed2 uint64
-	var htmlOutput bool
+	var htmlOutput, siegeMode bool
 	flag.Uint64Var(&seed1, "first_seed", rand.Uint64(), "the first seed number used for shuffling")
 	flag.Uint64Var(&seed2, "second_seed", rand.Uint64(), "the second seed number used for shuffling")
 	flag.BoolVar(&htmlOutput, "html", false, "generate an html output for testing and/or local play")
+	flag.BoolVar(&siegeMode, "siege_mode", false, "adjust the output for siege mode, instead of classic mode")
 	flag.Parse()
 
 	f, err := os.Open("components.toml")
@@ -225,6 +227,7 @@ func main() {
 	f.Close()
 
 	output := ComputeOutput(seed1, seed2, components)
+	output.SiegeMode = siegeMode
 
 	funcMap := template.FuncMap{
 		"add": func(a, b int) int { return a + b },

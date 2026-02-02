@@ -36,11 +36,15 @@ Please post a photo of your boards if you can/want to.
 [b].....[/b]
 
 [size=18]Plunder Tiles[/size]
+{{- if .SiegeMode }}
+[b]No plunder tiles (siege mode)[/b]
+{{ else }}
 [b]Round 1:[/b] {{ index .PlunderTilesByRound 1 }}
 [b]Round 2:[/b] {{ index .PlunderTilesByRound 2 }}
 [b]Round 3:[/b] {{ index .PlunderTilesByRound 3 }}
 [b]Round 4:[/b] {{ index .PlunderTilesByRound 4 }}
 [b]Round 5:[/b] {{ index .PlunderTilesByRound 5 }}
+{{- end }}
 
 [size=18]Path Cards[/size]
 Use only Card 1 for the round if your tent is behind the solo opponent (only in classic mode).

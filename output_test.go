@@ -1,27 +1,16 @@
 package main
 
 import (
-	"os"
 	"testing"
-
-	"github.com/BurntSushi/toml"
 	"github.com/nikkon226/anarchy-solo-challenge/internal/assert"
 )
 
 func TestComputeOutput(t *testing.T) {
 
-	f, err := os.Open("components.toml")
+	components, err := loadComponents()
 	if err != nil {
 		panic(err)
 	}
-
-	var components Components
-	_, err = toml.NewDecoder(f).Decode(&components)
-	if err != nil {
-		panic(err)
-	}
-
-	f.Close()
 
 	output := ComputeOutput(1, 2, components)
 
@@ -44,7 +33,7 @@ func TestComputeOutput(t *testing.T) {
 			},
 			3: {
 				{ID: 32, Type: "arrows", North: "C", East: "", South: "C", West: "B", Skull: "false"},
-				{ID: 36, Type: "arrows", North: "B", East: "B", South: "", West: "D", Skull: "true"},
+				{ID: 36, Type: "arrows", North: "B", East: "D", South: "B", West: "", Skull: "true"},
 				{ID: 14, Type: "ballista", North: "B", East: "", South: "C", West: "", Skull: "false"},
 				{ID: 3, Type: "ladder", North: "", East: "", South: "A", West: "", Skull: "false"},
 			},

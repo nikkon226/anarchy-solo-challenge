@@ -1,6 +1,8 @@
 package main
 
 import (
+	"bytes"
+	"embed"
 	"flag"
 	"fmt"
 	"html/template"
@@ -10,6 +12,9 @@ import (
 
 	"github.com/BurntSushi/toml"
 )
+
+//go:embed components.toml forum_template.tmpl html_template.html.tmpl
+var embeddedFiles embed.FS
 
 const (
 	KNIGHTS_TRAINING_BOW          = "bow-and-arrow"
@@ -204,6 +209,20 @@ func ComputeOutput(seed1 uint64, seed2 uint64, components Components) Output {
 	return output
 }
 
+func loadComponents() (Components, error) {
+	data, err := embeddedFiles.ReadFile("components.toml")
+	if err != nil {
+		return Components{}, err
+	}
+
+	var components Components
+	if _, err := toml.NewDecoder(bytes.NewReader(data)).Decode(&components); err != nil {
+		return Components{}, err
+	}
+
+	return components, nil
+}
+
 func main() {
 	var seed1, seed2 uint64
 	var htmlOutput, siegeMode bool
@@ -213,18 +232,10 @@ func main() {
 	flag.BoolVar(&siegeMode, "siege_mode", false, "adjust the output for siege mode, instead of classic mode")
 	flag.Parse()
 
-	f, err := os.Open("components.toml")
+	components, err := loadComponents()
 	if err != nil {
 		panic(err)
 	}
-
-	var components Components
-	_, err = toml.NewDecoder(f).Decode(&components)
-	if err != nil {
-		panic(err)
-	}
-
-	f.Close()
 
 	output := ComputeOutput(seed1, seed2, components)
 	output.SiegeMode = siegeMode
@@ -238,13 +249,13 @@ func main() {
 	}
 
 	if htmlOutput {
-		f, err = os.Create("output.html")
+		f, err := os.Create("output.html")
 
 		if err != nil {
 			panic(err)
 		}
 		defer f.Close()
-		tmpl, err := template.New("html_template.html.tmpl").Funcs(funcMap).ParseFiles("html_template.html.tmpl")
+		tmpl, err := template.New("html_template.html.tmpl").Funcs(funcMap).ParseFS(embeddedFiles, "html_template.html.tmpl")
 		if err != nil {
 			panic(err)
 		}
@@ -257,14 +268,14 @@ func main() {
 		f.Close()
 		return
 	}
-	f, err = os.Create("output.txt")
+	f, err := os.Create("output.txt")
 
 	if err != nil {
 		panic(err)
 	}
 	defer f.Close()
 
-	tmpl, err := template.New("forum_template.tmpl").Funcs(funcMap).ParseFiles("forum_template.tmpl")
+	tmpl, err := template.New("forum_template.tmpl").Funcs(funcMap).ParseFS(embeddedFiles, "forum_template.tmpl")
 	if err != nil {
 		panic(err)
 	}

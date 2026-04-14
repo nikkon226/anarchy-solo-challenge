@@ -15,3 +15,33 @@ The `components.toml` file has a list of all the components that are necessary f
 | Michaelmas               | 12           |
 | Lammas                   | 12           |
 
+## Verifying releases
+
+Releases are built in GitHub Actions from tagged source and include:
+
+- platform binaries
+- `checksums.txt`
+- GitHub artifact attestations for build provenance
+
+Pushing a tag such as `v1.2.3` triggers the release workflow. The binaries should be verified before extracting or running them.
+
+To verify a downloaded release asset against GitHub's signed build provenance:
+
+```bash
+gh attestation verify ./<downloaded-release-asset> --repo nikkon226/anarchy-solo-challenge
+```
+
+To verify the checksum file locally after downloading `checksums.txt`:
+
+```bash
+sha256sum -c checksums.txt
+```
+
+If the repository has GitHub immutable releases enabled in repository settings, users can also verify the published release and that a local file matches a release asset:
+
+```bash
+gh release verify <tag> --repo nikkon226/anarchy-solo-challenge
+gh release verify-asset <tag> ./<downloaded-release-asset> --repo nikkon226/anarchy-solo-challenge
+```
+
+This setup provides GitHub-signed provenance for release artifacts. It does not provide platform-native executable signing such as Apple code signing/notarization or Windows Authenticode.

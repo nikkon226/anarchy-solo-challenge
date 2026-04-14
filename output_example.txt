@@ -1,0 +1,1182 @@
+[b]Challenge Start[/b]: Now
+[b]Challenge End[/b]:
+
+[size=18][b]Description:[/b][/size]
+Welcome to The Anarchy Solo Challenge. Every month, we'll play a randomly generated setup with fully scripted rounds of attack cards and a domain deck.
+The deck of 24 domain cards are shuffled, drawn until completed, per the rule book and shuffled again 4 times to be able to make the full list of 102 cards (calculated maximum number of domain cards per play).
+
+Let's see who can get the highest score!
+
+The source code for the challenge is located at [url=https://github.com/nikkon226/anarchy-solo-challenge]https://github.com/nikkon226/anarchy-solo-challenge[/url]. If there are any issues or errors, please let me know!
+
+[size=18][b]Rules:[/b][/size]
+- All regular solo rules apply
+- Use the Domain Cards in order so everyone has the same randomized set per challenge. It might help to track what card is next or how many you have used so you can select the next one in the series
+- Some of the card names, descriptions, types, etc. have ending periods ("."). This is done so that the spoiler tags are all the same length and can't be inferred, whether intentional or not.
+- Only your [b]first blind play[/b] will count, but play as many times as you wish!
+- All are welcome to join
+
+[size=18][b]Scoring:[/b][/size]
+Please report your score using this format:
+[b]Bravery:[/b]
+[b]Loyalty:[/b]
+[b]Influence:[/b]
+[b]Might:[/b]
+[b]Path Cards:[/b]
+[b]Discontent:[/b]
+[b]Total:[/b]
+
+[b]Path Cards Chosen (in order):[/b]
+
+Please post a photo of your boards if you can/want to.
+
+[size=24]Challenge:[/size]
+
+[size=18]Mode[/size]
+[b].....[/b]
+
+[size=18]Plunder Tiles[/size]
+[b]No plunder tiles (siege mode)[/b]
+
+
+[size=18]Path Cards[/size]
+Use only Card 1 for the round if your tent is behind the solo opponent (only in classic mode).
+
+Round 1:
+Card 1: [o][c]Advocate.......[/c][/o]
+Card 2: [o][c]Scout..........[/c][/o]
+Round 2:
+Card 1: [o][c]Bellwether.....[/c][/o]
+Card 2: [o][c]Weaponsmith....[/c][/o]
+Round 3:
+Card 1: [o][c]Engineer.......[/c][/o]
+Card 2: [o][c]Partisan.......[/c][/o]
+Round 4:
+Card 1: [o][c]Defender.......[/c][/o]
+Card 2: [o][c]Priest.........[/c][/o]
+Round 5:
+Card 1: [o][c]Recruiter......[/c][/o]
+Card 2: [o][c]Conqueror......[/c][/o]
+
+[size=18]Attack Cards[/size]
+[b]Round 1:[/b]
+Final Escalade:
+[o]
+Type: [c]ladder.......[/c]
+North: [c]A[/c]
+East: [c]A[/c]
+South: [c].[/c]
+West: [c].[/c]
+[/o]
+Attack 1:
+[o]
+Type: [c]battering_ram[/c]
+North: [c].[/c]
+East: [c].[/c]
+South: [c]E[/c]
+West: [c].[/c]
+Skull: [c]true.[/c]
+[/o]
+
+[b]Round 2:[/b]
+Final Escalade:
+[o]
+Type: [c]ladder.......[/c]
+North: [c].[/c]
+East: [c].[/c]
+South: [c]A[/c]
+West: [c]A[/c]
+[/o]
+Attack 1:
+[o]
+Type: [c]catapault....[/c]
+North: [c].[/c]
+East: [c].[/c]
+South: [c]C[/c]
+West: [c].[/c]
+Skull: [c]false[/c]
+[/o]
+Attack 2:
+Hidden Card Type: [o][c]ladder.......[/c][/o]
+Full Card:
+[o]
+Type: [c]ladder.......[/c]
+North: [c]A[/c]
+East: [c].[/c]
+South: [c].[/c]
+West: [c].[/c]
+Skull: [c]false[/c]
+[/o]
+
+[b]Round 3:[/b]
+Final Escalade:
+[o]
+Type: [c]ladder.......[/c]
+North: [c]A[/c]
+East: [c].[/c]
+South: [c].[/c]
+West: [c]A[/c]
+[/o]
+Attack 1:
+[o]
+Type: [c]catapault....[/c]
+North: [c].[/c]
+East: [c].[/c]
+South: [c]C[/c]
+West: [c].[/c]
+Skull: [c]false[/c]
+[/o]
+Attack 2:
+Hidden Card Type: [o][c]catapault....[/c][/o]
+Full Card:
+[o]
+Type: [c]catapault....[/c]
+North: [c].[/c]
+East: [c].[/c]
+South: [c]C[/c]
+West: [c].[/c]
+Skull: [c]false[/c]
+[/o]
+Attack 3:
+[o]
+Type: [c]siege_tower..[/c]
+North: [c].[/c]
+East: [c]A[/c]
+South: [c].[/c]
+West: [c].[/c]
+Skull: [c]false[/c]
+[/o]
+
+[b]Round 4:[/b]
+Final Escalade:
+[o]
+Type: [c]ladder.......[/c]
+North: [c]A[/c]
+East: [c].[/c]
+South: [c].[/c]
+West: [c]A[/c]
+[/o]
+Attack 1:
+[o]
+Type: [c]battering_ram[/c]
+North: [c].[/c]
+East: [c].[/c]
+South: [c]D[/c]
+West: [c].[/c]
+Skull: [c]false[/c]
+[/o]
+Attack 2:
+Hidden Card Type: [o][c]ladder.......[/c][/o]
+Full Card:
+[o]
+Type: [c]ladder.......[/c]
+North: [c]E[/c]
+East: [c].[/c]
+South: [c].[/c]
+West: [c].[/c]
+Skull: [c]true.[/c]
+[/o]
+Attack 3:
+[o]
+Type: [c]ballista.....[/c]
+North: [c].[/c]
+East: [c]B[/c]
+South: [c].[/c]
+West: [c]C[/c]
+Skull: [c]false[/c]
+[/o]
+Attack 4:
+Hidden Card Type: [o][c]battering_ram[/c][/o]
+Full Card:
+[o]
+Type: [c]battering_ram[/c]
+North: [c].[/c]
+East: [c].[/c]
+South: [c]E[/c]
+West: [c].[/c]
+Skull: [c]true.[/c]
+[/o]
+
+[b]Round 5:[/b]
+Final Escalade:
+[o]
+Type: [c]ladder.......[/c]
+North: [c].[/c]
+East: [c].[/c]
+South: [c]A[/c]
+West: [c]A[/c]
+[/o]
+Attack 1:
+[o]
+Type: [c]ballista.....[/c]
+North: [c].[/c]
+East: [c]B[/c]
+South: [c].[/c]
+West: [c]C[/c]
+Skull: [c]false[/c]
+[/o]
+Attack 2:
+Hidden Card Type: [o][c]catapault....[/c][/o]
+Full Card:
+[o]
+Type: [c]catapault....[/c]
+North: [c].[/c]
+East: [c].[/c]
+South: [c]C[/c]
+West: [c].[/c]
+Skull: [c]false[/c]
+[/o]
+Attack 3:
+[o]
+Type: [c]battering_ram[/c]
+North: [c].[/c]
+East: [c].[/c]
+South: [c]D[/c]
+West: [c].[/c]
+Skull: [c]false[/c]
+[/o]
+Attack 4:
+Hidden Card Type: [o][c]catapault....[/c][/o]
+Full Card:
+[o]
+Type: [c]catapault....[/c]
+North: [c].[/c]
+East: [c].[/c]
+South: [c]A[/c]
+West: [c].[/c]
+Skull: [c]true.[/c]
+[/o]
+Attack 5:
+[o]
+Type: [c]ladder.......[/c]
+North: [c].[/c]
+East: [c].[/c]
+South: [c].[/c]
+West: [c]A[/c]
+Skull: [c]false[/c]
+[/o]
+
+[size=18]Domain Cards[/size]
+Card 1:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 2:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 2
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 3:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 4:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 8
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 5:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 5
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 6:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 6
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 7:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 8:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 1
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 9:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 8
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 10:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 6
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 11:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 7
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 12:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 7
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 13:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 5
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 14:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 2
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 15:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 7
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 16:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 17:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 6
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 18:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 19:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 8
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 20:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 5
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 21:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 2
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 22:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 23:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 1
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 24:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 1
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 25:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 5
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 26:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 2
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 27:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 7
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 28:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 8
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 29:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 6
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 30:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 8
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 31:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 32:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 1
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 33:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 8
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 34:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 7
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 35:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 36:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 6
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 37:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 7
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 38:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 39:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 2
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 40:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 1
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 41:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 42:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 1
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 43:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 5
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 44:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 5
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 45:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 46:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 47:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 6
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 48:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 2
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 49:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 1
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 50:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 2
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 51:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 6
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 52:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 2
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 53:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 5
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 54:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 1
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 55:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 56:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 1
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 57:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 5
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 58:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 59:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 60:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 61:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 6
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 62:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 8
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 63:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 7
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 64:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 7
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 65:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 8
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 66:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 67:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 7
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 68:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 6
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 69:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 70:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 8
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 71:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 5
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 72:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 2
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 73:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 74:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 6
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 75:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 76:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 1
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 77:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 78:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 5
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 79:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 7
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 80:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 81:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 2
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 82:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 83:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 1
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 84:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 7
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 85:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 8
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 86:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 8
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 87:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 6
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 88:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 89:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 1
+Tournament: [c]  | ⚔️ | 🛡️[/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 90:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 1 ♂️
+Michaelmas: 📖 2
+Tournament: [c]⚔️ |   | 🛡️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 91:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 7
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 92:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 8
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]barm..[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 93:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 6
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟩 green.[/c]
+[/o]
+Card 94:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 2 ♂️
+Michaelmas: 📖 5
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 95:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 2
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 96:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 5
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 97:
+[o]
+Knight's Training: [c]🐴[/c]
+St.Valentine's Festival: ♀️ 5 ♂️
+Michaelmas: 📖 4
+Tournament: [c]⚔️ | 🛡️ |  [/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 98:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 6 ♂️
+Michaelmas: 📖 7
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 99:
+[o]
+Knight's Training: [c]🛡️[/c]
+St.Valentine's Festival: ♀️ 3 ♂️
+Michaelmas: 📖 2
+Tournament: [c]🛡️ | ⚔️ |  [/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟥 red...[/c]
+[/o]
+Card 100:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 7
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]water.[/c]
+Lammas: [c]🟪 purple[/c]
+[/o]
+Card 101:
+[o]
+Knight's Training: [c]📜[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 3
+Tournament: [c]  | 🛡️ | ⚔️[/c]
+Brewhouse: [c]barley[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+Card 102:
+[o]
+Knight's Training: [c]🏹[/c]
+St.Valentine's Festival: ♀️ 4 ♂️
+Michaelmas: 📖 5
+Tournament: [c]🛡️ |   | ⚔️[/c]
+Brewhouse: [c]hops..[/c]
+Lammas: [c]🟨 yellow[/c]
+[/o]
+
+[size=18]Seed Used[/size]
+To replicate via the generator program.
+[b]First Seed:[/b] 4250623856983950997
+[b]Second Seed:[/b] 6846684594333475007
